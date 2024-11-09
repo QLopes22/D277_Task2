@@ -1,0 +1,134 @@
+/* arya-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Arya';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/arya-v19-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* arya-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Arya';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/arya-v19-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Arya', Verdana, sans-serif;
+}
+
+body {
+    background-image: url("https://images.unsplash.com/photo-1531366936337-7c912a4589a7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 16px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.nav_logo {
+    width: 75px;
+    border-radius: 100px;
+}
+
+.nav_links a{
+    padding: 0 2px;
+    text-decoration: none;
+    color: white;
+}
+
+.nav_links a:hover {
+    color: rgba(255,212,42,255);
+}
+
+h1, h2 {
+    margin: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+p {
+    font-size: 20px;
+    padding: 16px;
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+.cityImage {
+    display: block;
+    margin: auto;
+    width: 800px;
+    border-radius: 10px;
+}
+
+.main_container{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center; 
+}
+
+section, aside {
+    width: 75vw;
+}
+
+.orderList, .unOrderedList {
+    background-color: rgba(0,51,128,255);
+    color: white;
+    border-radius: 10px;
+}
+
+table, td {
+    border: 1px solid black;
+    font-size: 20px;
+}
+table {
+    height: 40%;
+    left: 10%;
+    margin: 20px auto;
+    overflow-y: scroll;
+    width: 80%;
+  }
+  
+  tr {
+      background: #f4f7f8;
+      border-bottom: 1px solid #FFF;
+      margin-bottom: 5px;
+    }
+    
+    th, td {
+        font-family: inherit;
+        padding: 20px;
+        text-align: left;
+        width: 25%;
+    }
+    
+    th {
+      font-size: 25px;
+      font-family: inherit;
+      font-weight: bolder;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
